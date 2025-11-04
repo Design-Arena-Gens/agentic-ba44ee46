@@ -1,0 +1,32 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; color: #0f172a; background: #f8fafc; }
+
+.container { max-width: 980px; margin: 0 auto; padding: 24px; }
+.card { background: white; border-radius: 12px; padding: 16px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
+.header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.title { font-size: 20px; font-weight: 700; }
+.subtle { color: #64748b; }
+.row { display: flex; gap: 12px; }
+.flex { display: flex; }
+.col { display: flex; flex-direction: column; }
+.gap-2 { gap: 8px; }
+.gap-3 { gap: 12px; }
+.gap-4 { gap: 16px; }
+.input { padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 10px; background: white; color: #0f172a; }
+.textarea { padding: 12px; border: 1px solid #cbd5e1; border-radius: 10px; resize: vertical; min-height: 80px; }
+.btn { padding: 10px 14px; border: 1px solid #cbd5e1; border-radius: 10px; background: #0ea5e9; color: white; font-weight: 600; cursor: pointer; }
+.btn.secondary { background: white; color: #0f172a; }
+.btn.ghost { background: transparent; color: #0f172a; border: none; }
+.btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.badge { display: inline-flex; align-items: center; gap: 6px; background: #f1f5f9; padding: 6px 10px; border-radius: 999px; border: 1px solid #e2e8f0; font-size: 12px; }
+.select { padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 10px; background: white; }
+
+.chat { display: flex; flex-direction: column; gap: 12px; height: 70vh; overflow: hidden; }
+.messages { flex: 1; overflow: auto; padding: 12px; border: 1px solid #e2e8f0; border-radius: 12px; background: #fff; }
+.msg { padding: 10px 12px; border-radius: 10px; max-width: 80%; white-space: pre-wrap; line-height: 1.5; }
+.msg.user { background: #e0f2fe; align-self: flex-end; }
+.msg.assistant { background: #f1f5f9; align-self: flex-start; }
+.footer { display: flex; gap: 8px; }
+.small { font-size: 12px; }
+.mono { font-family: ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
